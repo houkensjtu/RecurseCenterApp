@@ -5,8 +5,8 @@
 
 # Variables description:
 # i : the number under test.
-# Crackle_num : First divisor, print Crackle.
-# Pop_num : Second divison, print Pop.
+# Crackle_num : First divisor, print Crackle if divisible by this.
+# Pop_num : Second divisor, print Pop if divisible by this.
 
 def CracklePop(Crackle_num, Pop_num):
     for i in range(1,101):
